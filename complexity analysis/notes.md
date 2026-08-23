@@ -23,27 +23,27 @@ numbers = [10,20,30,40,50,60,70,80,90,100]
 print(numbers[0])
 
 
-O(n) — Linear
+**O(n) — Linear**
 
 for x in numbers:
     print(x)
 
 
-O(n²) — Quadratic
+**O(n²) — Quadratic**
 
 for i in numbers:
     for j in numbers:
         print(i, j)
 
 
-O(log n) — Logarithmic
+**O(log n) — Logarithmic**
 Used when the problem is repeatedly reduced, such as Binary Search.
 
 ## Space Complexity
 
 Space Complexity tells us how much extra memory an algorithm uses.
 
-O(1) — Constant Space
+**O(1) — Constant Space**
 
 maximum = numbers[0]
 for x in numbers:
@@ -51,7 +51,7 @@ for x in numbers:
         maximum = x
 
 
-O(n) — Linear Space
+**O(n) — Linear Space**
 
 new_list = []
 
